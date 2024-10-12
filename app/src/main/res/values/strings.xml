@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mapas</string>
+    <string name="type">Ver mapas</string>
+    <string name="estandar">Estandar</string>
+    <string name="satelite">Satélite</string>
+    <string name="hibrida">Hibrida</string>
+    <string name="poli">Polilinea</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
