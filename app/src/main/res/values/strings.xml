@@ -6,4 +6,6 @@
     <string name="hibrida">Hibrida</string>
     <string name="poli">Polilinea</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="multiple_destinations">Destinos múltiples</string>
+    <string name="selectPointsRouteActivity">Seleccionar puntos de ruta</string>
 </resources>

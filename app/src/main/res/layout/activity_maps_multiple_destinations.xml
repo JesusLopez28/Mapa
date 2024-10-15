@@ -1,0 +1,29 @@
+<!-- res/layout/activity_maps_multiple_destinations.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/origin_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe el origen (lat,lng)"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/destination_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe los destinos separados por comas (lat,lng)" />
+
+    <Button
+        android:id="@+id/button_open_maps_multiple_destinations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Abrir Google Maps con destinos"
+        android:textColor="@android:color/white" />
+</LinearLayout>
